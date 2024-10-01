@@ -1,0 +1,89 @@
+/* accountpage.css */
+
+.accountPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0; /* Cor harmônica suave */
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.accountPage_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.accountPage_title {
+  font-size: 36px;
+  color: #4cAf50; /* Cor verde harmônica */
+  margin: 0;
+}
+
+.accountPage_name {
+  font-size: 24px;
+  color: #333;
+  margin-left: 20px;
+}
+
+.accountPage_edit {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.accountPage_edit li {
+  margin-top: 10px;
+}
+
+.accountPage_edit a {
+  color: #4cAf50;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.accountPage_information {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.accountPage_information p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.accountPage_balance {
+  background-color: #4cAf50; /* Cor verde suave */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accountPage_balance p {
+  margin: 0;
+}
+
+.accountPage_error {
+  color: red;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
